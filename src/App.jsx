@@ -1,10 +1,11 @@
-import "./App.css";
+import "./styles/App.css";
+import Quiz from "./components/Quiz";
 
 function App() {
   return (
-    <>
-      <h1>Sagar</h1>
-    </>
+    <div className="App">
+      <Quiz />
+    </div>
   );
 }
 
